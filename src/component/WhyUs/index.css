@@ -1,0 +1,8 @@
+.whyUs{
+    background-color:#690020;
+     min-height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    padding: 5.5rem;
+    background-size: cover;
+}

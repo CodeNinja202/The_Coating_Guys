@@ -1,0 +1,26 @@
+.contactus{
+
+    background-image: url("../Photos/10.png");
+    overflow: hidden;
+    min-height: 100vh;
+    border: 55px solid none;
+    box-sizing: border-box;
+    padding: 5.5rem;
+    background-size: cover;
+    }
+
+    .form-container {
+        display: flex;
+        
+        justify-content: center;
+      }
+      
+      form.centered {
+        width: 50%; /* or any other fixed width */
+        margin: 0 auto;
+      }
+      .form-row {
+        margin: 1rem 0; /* add some margin to the top and bottom of the form row */
+      }
+
+      

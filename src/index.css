@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*,
+*::before,
+*::after{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+
+html {
+  background-color: #DFDFDF;
+}
+
+.footer-main-div {
+  width: 100%;
+  border: 55px solid rgb(45, 4, 70);
+  box-sizing: border-box;
+}
+
+.product-main-div {
+
+  height: auto;
+  background-color: #fff9f1;
+  width: auto;
+}

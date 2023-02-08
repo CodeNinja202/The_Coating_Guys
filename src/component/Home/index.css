@@ -1,0 +1,12 @@
+
+
+.homePage{
+background-color: #002f69;
+overflow: hidden;
+min-height: 100vh;
+padding: 5.5rem;
+border: 25px solid none;
+box-sizing: border-box;
+background-size: cover;
+}
+
