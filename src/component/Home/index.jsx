@@ -1,11 +1,13 @@
+//Imports//////////////////////
 import React from "react";
 import "./index.css";
+//////////////////////////////
 
 const Homepage = () => {
 
   return (
-   
-    <div className="homePage" id="homePageID">
+   //Main Container
+    <div className="homePage">
     <h1>Home page</h1>
     </div>
     

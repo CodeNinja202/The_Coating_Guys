@@ -1,3 +1,4 @@
+// Imports////////////////////////////////
 import React, { useRef } from "react";
 import "./index.css";
 import {
@@ -8,10 +9,16 @@ import {
   TextField,
   Button,
 } from "@mui/material";
+import Footer from './Footer/index'
+////////////////////////////////////////
+
+
+
 
 const Form = () => {
-  const formRef = useRef();
+  const formRef = useRef();//Use the reference
   return (
+    //Main Container
     <footer className="contactus" id="contact-us-page">
       <div className="form-main-div">
         <div className="container">
@@ -82,6 +89,7 @@ const Form = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </footer>
   );
 };

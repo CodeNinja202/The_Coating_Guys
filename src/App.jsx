@@ -9,7 +9,6 @@ import WhyUs from './component/WhyUs'
 import ImageGallery from './component/ImageGallery'
 import ClientTestmonials from './component/ClientTestmonials'
 import ContactPage from './component/ContactPage'
-import Footer from './component/Footer'
 ///////////////////////////////////////////////////////
 
 
@@ -63,8 +62,6 @@ const App = () => {
       <div  id="Contact">
         <ContactPage />
       </div>
-
-      <Footer />
     </div>
   );
 };

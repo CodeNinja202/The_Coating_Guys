@@ -8,13 +8,14 @@ nav {
     background-color: rgba(0, 0, 0, 0.482); /* Add translucent background color */
     color: white;
   }
-  
+  /* //////////////////////// */
+
 /* Company Brand */
 .brand-title {
     font-size: 1.5rem;
     margin: .5rem;
 }
-
+/* //////////////////////// */
 
 /* Nav Links */
 .navbar-links {
@@ -41,7 +42,7 @@ nav {
 .navbar-links li:hover {
     background-color: #555;
 }
-
+/* //////////////////////// */
 
 /* Waffle Toggler */
 .toggle-button {
@@ -97,8 +98,11 @@ transform: translate(-10px, 7px) rotate(45deg);
     transform: translate(-10px, -10px) rotate(-45deg);
     }
 
+/* //////////////////////// */
 
 
+
+/* Media Phone Responsive */
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
@@ -132,3 +136,4 @@ transform: translate(-10px, 7px) rotate(45deg);
     }
 }
 
+/* //////////////////////// */

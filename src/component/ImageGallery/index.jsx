@@ -1,13 +1,13 @@
+// Imports////////////////////
 import React from "react";
 import "./index.css";
-
+/////////////////////////////
 const ImageGallery = () => {
 
   return (
-   
-    <div className="imageGallery"  id="Gallery">
+  //  Maint Container
+    <div className="imageGallery">
     <h1>Gallery</h1>
-   
     </div>
     
   );

@@ -1,7 +1,8 @@
+//Imports/////////////////////////////////////////////////////
 import React from "react";
 import "./index.css";
 import { HashLink as Link } from "react-router-hash-link";
-
+////////////////////////////////////////////////////////////////
 
 //function for hamburger menu 
 window.onload = function () { // loads when the menu is loaded

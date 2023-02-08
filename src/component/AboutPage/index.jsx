@@ -1,10 +1,13 @@
+// Imports//////////////////////////////////
 import React from "react";
 import "./index.css";
+/////////////////////////////////////////////
 
-const Pagetwo = () => {
+
+const AboutPage = () => {
 
   return (
-   
+   //Main div
     <div className="aboutPage">
     <h1>AboutPage</h1>
    
@@ -13,4 +16,4 @@ const Pagetwo = () => {
   );
 };
 
-export default Pagetwo;
+export default AboutPage;
