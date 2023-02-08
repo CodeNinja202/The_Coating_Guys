@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className="navbar-links">
         <ul className="ul-list">
 
-          {/* HOME LINK */}
+          {/* HOME LINKs */}
           <li>
             <div className="links">
               <Link to="#Home" smooth>
