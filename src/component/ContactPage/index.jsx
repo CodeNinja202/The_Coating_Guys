@@ -9,7 +9,7 @@ import {
   TextField,
   Button,
 } from "@mui/material";
-import Footer from './Footer/index'
+
 ////////////////////////////////////////
 
 
@@ -89,7 +89,7 @@ const Form = () => {
           </form>
         </div>
       </div>
-      <Footer />
+      
     </footer>
   );
 };
