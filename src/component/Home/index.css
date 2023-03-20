@@ -1,5 +1,4 @@
-
-
+/* Main Container */
 .homePage{
 background-color: #002f69;
 overflow: hidden;
@@ -10,3 +9,4 @@ box-sizing: border-box;
 background-size: cover;
 }
 
+/* //////////////////// */

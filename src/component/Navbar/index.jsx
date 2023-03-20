@@ -1,7 +1,9 @@
+//Imports/////////////////////////////////////////////////////
 import React from "react";
 import "./index.css";
 import { HashLink as Link } from "react-router-hash-link";
-
+import Logo from "../Photos/NavbarLogo.png"
+////////////////////////////////////////////////////////////////
 
 //function for hamburger menu 
 window.onload = function () { // loads when the menu is loaded
@@ -19,9 +21,10 @@ window.onload = function () { // loads when the menu is loaded
 const Navbar = () => {
   return (
     //Main navigation container
+    <div className="main-nav-container">
     <nav className="navbar">
       <div className="brand-title">
-        <h1>LOGO</h1>
+       <img style={{height:"550px", marginRight:"10px"}} src={Logo}/>
       </div>
 
       {/* Hamburger Menu */}
@@ -109,6 +112,7 @@ const Navbar = () => {
         </ul>
       </div>
     </nav>
+    </div>
   );
 };
 
